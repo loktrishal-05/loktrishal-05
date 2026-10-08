@@ -1,7 +1,7 @@
 <!-- ═══════════════════════ HEADER ═══════════════════════ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0D0117,45:3C096C,75:7B2FF7,100:C77DFF&height=230&section=header&text=LOKTRISHAL%20K&fontSize=62&fontColor=F3E8FF&fontAlignY=36&animation=twinkling&desc=AI%20%E2%80%A2%20Data%20Science%20%E2%80%A2%20Full%20Stack&descSize=18&descAlignY=56&descAlign=50">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:F3E8FF,50:C77DFF,100:7B2FF7&height=230&section=header&text=LOKTRISHAL%20K&fontSize=62&fontColor=240046&fontAlignY=36&animation=twinkling&desc=AI%20%E2%80%A2%20Data%20Science%20%E2%80%A2%20Full%20Stack&descSize=18&descAlignY=56&descAlign=50">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0D0117%2C45:3C096C%2C75:7B2FF7%2C100:C77DFF&height=230&section=header&text=LOKTRISHAL%20K&fontSize=62&fontColor=F3E8FF&fontAlignY=36&animation=twinkling&desc=AI%20%E2%80%A2%20Data%20Science%20%E2%80%A2%20Full%20Stack&descSize=18&descAlignY=56&descAlign=50">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:F3E8FF%2C50:C77DFF%2C100:7B2FF7&height=230&section=header&text=LOKTRISHAL%20K&fontSize=62&fontColor=240046&fontAlignY=36&animation=twinkling&desc=AI%20%E2%80%A2%20Data%20Science%20%E2%80%A2%20Full%20Stack&descSize=18&descAlignY=56&descAlign=50">
   <img width="100%" alt="Loktrishal K banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0117,45:3C096C,75:7B2FF7,100:C77DFF&height=230&section=header&text=LOKTRISHAL%20K&fontSize=62&fontColor=F3E8FF&fontAlignY=36&animation=twinkling&desc=AI%20%E2%80%A2%20Data%20Science%20%E2%80%A2%20Full%20Stack&descSize=18&descAlignY=56&descAlign=50">
 </picture>
 
