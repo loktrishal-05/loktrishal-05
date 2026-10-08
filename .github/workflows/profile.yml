@@ -11,6 +11,8 @@ on:
 permissions:
   contents: write
 
+concurrency: profile-assets
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -44,6 +46,7 @@ jobs:
           ANIMATION: draw
 
       - run: |
+          sudo chown -R $USER dist
           mkdir -p dist/profile-3d-contrib dist/cards
           cp profile-3d-contrib/*.svg dist/profile-3d-contrib/
           cp profile-summary-card-output/midnight_purple/*.svg dist/cards/
