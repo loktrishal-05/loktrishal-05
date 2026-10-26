@@ -131,11 +131,11 @@ class Loktrishal:
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [Sensor models v1](https://github.com/loktrishal-05/Solar-Da/releases/tag/sensor-models-v1) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
-2. 🚀 Published release [Leaf-disease model v1](https://github.com/loktrishal-05/Solar-Da/releases/tag/vision-v1) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
-3. 💪 Opened PR [#1](https://github.com/loktrishal-05/loktrishal-portfolio/pull/1) in [loktrishal-05/loktrishal-portfolio](https://github.com/loktrishal-05/loktrishal-portfolio)
-4. 🗣 Commented on [#13](https://github.com/loktrishal-05/legal-compliance-regulatory-workbench/pull/13#issuecomment-6043660183) in [loktrishal-05/legal-compliance-regulatory-workbench](https://github.com/loktrishal-05/legal-compliance-regulatory-workbench)
-5. 🎉 Merged PR [#14](https://github.com/loktrishal-05/legal-compliance-regulatory-workbench/pull/14) in [loktrishal-05/legal-compliance-regulatory-workbench](https://github.com/loktrishal-05/legal-compliance-regulatory-workbench)
+1. 💪 Opened PR [#2](https://github.com/loktrishal-05/Solar-Da/pull/2) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
+2. 🎉 Merged PR [#1](https://github.com/loktrishal-05/Solar-Da/pull/1) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
+3. 💪 Opened PR [#1](https://github.com/loktrishal-05/Solar-Da/pull/1) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
+4. 🚀 Published release [Sensor models v2 (ONNX)](https://github.com/loktrishal-05/Solar-Da/releases/tag/sensor-models-v2-onnx) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
+5. 🚀 Published release [Sensor models v1](https://github.com/loktrishal-05/Solar-Da/releases/tag/sensor-models-v1) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
 <!--END_SECTION:activity-->
 
 <!-- ═══════════════════════ CONNECT ═══════════════════════ -->
