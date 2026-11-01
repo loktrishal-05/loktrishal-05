@@ -21,12 +21,21 @@
 
 ## About me
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/identity-mobile.jpg">
-  <img src="./assets/identity-cinematic.jpg" width="100%" alt="Loktrishal K, AI and Data Science Engineer and Full Stack Developer in Chennai, India. Original portrait in a dimensional metal frame.">
-</picture>
+<table>
+<tr>
+<td width="25%" align="center" valign="middle"><img src="./assets/portrait.png" width="180" alt="Loktrishal K — professional headshot on a white background"></td>
+<td width="75%" valign="middle">
+
+### Loktrishal K
+**AI & Data Science Engineer · Full Stack Developer**
+
+Chennai, India
 
 I connect machine learning, analytical modeling and thoughtful interfaces to build systems people can understand and use.
+
+</td>
+</tr>
+</table>
 
 - **AI & machine learning:** computer vision, classification, forecasting and grounded AI applications.
 - **Data & analytics:** turning raw data into useful features, clear visualizations and evidence.
@@ -55,7 +64,7 @@ class Loktrishal:
 
 ## Featured projects
 
-<p><a href="https://github.com/loktrishal-05/kinsight"><img src="./assets/project-kinsight.jpg" width="100%" alt="KinSight — cinematic project panel with glass and metal orbital forms"></a></p>
+<p><a href="https://github.com/loktrishal-05/kinsight"><img src="./assets/project-kinsight-3d.jpg" width="100%" alt="Conceptual 3D illustration of DNA and family counselling"></a></p>
 
 **Next.js · TypeScript · Multilingual UI**
 
@@ -65,7 +74,7 @@ A multilingual navigator that explains inherited-risk screening in plain languag
 
 ---
 
-<p><a href="https://github.com/loktrishal-05/Solar-Da"><img src="./assets/project-solarda.jpg" width="100%" alt="Solarda — cinematic project panel with glass and metal orbital forms"></a></p>
+<p><a href="https://github.com/loktrishal-05/Solar-Da"><img src="./assets/project-solarda-3d.jpg" width="100%" alt="Conceptual 3D illustration of precision agriculture, plants and sensors"></a></p>
 
 **TypeScript · Python · Gemini · Docker**
 
@@ -75,7 +84,7 @@ Safety-gated farm agents, a multilingual assistant, plant-disease vision and sen
 
 ---
 
-<p><a href="https://github.com/loktrishal-05/exoplanet-detection"><img src="./assets/project-exodetect.jpg" width="100%" alt="ExoDetect — cinematic project panel with glass and metal orbital forms"></a></p>
+<p><a href="https://github.com/loktrishal-05/exoplanet-detection"><img src="./assets/project-exodetect-3d.jpg" width="100%" alt="Conceptual 3D illustration of an exoplanet transit and light curve"></a></p>
 
 **Python · XGBoost · ONNX**
 
@@ -85,7 +94,7 @@ Exoplanet candidate detection from noisy Kepler light curves, using transit feat
 
 ---
 
-<p><a href="https://github.com/loktrishal-05/legal-compliance-regulatory-workbench"><img src="./assets/project-legal.jpg" width="100%" alt="Legal & Regulatory Assurance — cinematic project panel with glass and metal orbital forms"></a></p>
+<p><a href="https://github.com/loktrishal-05/legal-compliance-regulatory-workbench"><img src="./assets/project-legal-3d.jpg" width="100%" alt="Conceptual 3D illustration of contracts, evidence and balance scales"></a></p>
 
 **FastAPI · React · PostgreSQL**
 
@@ -95,7 +104,7 @@ Contract intelligence, regulatory change and compliance workflows connecting doc
 
 ---
 
-<p><a href="https://github.com/loktrishal-05/ertmac-nwis"><img src="./assets/project-nwis.jpg" width="100%" alt="eRTMAC-NWIS — cinematic project panel with glass and metal orbital forms"></a></p>
+<p><a href="https://github.com/loktrishal-05/ertmac-nwis"><img src="./assets/project-nwis-3d.jpg" width="100%" alt="Conceptual 3D illustration of a geological cutaway and nearby wells"></a></p>
 
 **FastAPI · React · PostGIS · LangGraph**
 
@@ -105,7 +114,7 @@ Nearby-well intelligence and advisory drilling support. The prototype uses **syn
 
 ---
 
-<p><a href="https://github.com/loktrishal-05/EduNova"><img src="./assets/project-edunova.jpg" width="100%" alt="EduNova — cinematic project panel with glass and metal orbital forms"></a></p>
+<p><a href="https://github.com/loktrishal-05/EduNova"><img src="./assets/project-edunova-3d.jpg" width="100%" alt="Conceptual 3D illustration of biology, chemistry and physics worlds"></a></p>
 
 **Next.js · Three.js · React Three Fiber · GSAP**
 
@@ -218,6 +227,6 @@ I'm interested in conversations about **AI applications, data visualization, ful
 <a href="https://www.linkedin.com/in/loktrishal-k-230294376/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0B1018?style=for-the-badge&logo=linkedin&logoColor=7DD3FC" alt="Connect on LinkedIn"></a> <a href="mailto:loktrishal.k@gmail.com"><img src="https://img.shields.io/badge/Start_a_Conversation-0B1018?style=for-the-badge&logo=gmail&logoColor=99F6E4" alt="Send me an email"></a> <a href="https://loktrishal-portfolio.vercel.app"><img src="https://img.shields.io/badge/Enter_the_3D_Portfolio-0B1018?style=for-the-badge&logo=threedotjs&logoColor=F8FAFC" alt="Enter my interactive 3D portfolio"></a>
 </div>
 
-<p align="left"><a href="https://loktrishal-portfolio.vercel.app"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/footer-cinematic.jpg"><img src="./assets/footer-cinematic.gif" width="100%" alt="Curiosity into code. Data into decisions. The supplied glass and metal orbital film plays beside the message."></picture></a></p>
+<p align="left"><a href="https://loktrishal-portfolio.vercel.app"><img src="./assets/observatory.gif" width="100%" alt="Curiosity into code. Data into decisions. A luminous galaxy rotates beside the message."></a></p>
 
 [Back to the top](#)

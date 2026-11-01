@@ -1,4 +1,4 @@
-"""Compose the supplied orbital footage into README motion and project artwork.
+"""Compose the supplied footage into the profile hero and categorized toolbox.
 
 Usage: python scripts/render_cinematic.py [path-to-ffmpeg]
 Requires FFmpeg and Pillow. The source MP4 is retained without audio in assets.
@@ -58,16 +58,6 @@ def hero(frame):
     return image
 
 
-def footer(frame):
-    image = stage(frame, 230, 540, 430)
-    draw = ImageDraw.Draw(image)
-    draw.line((40, 42, 104, 42), fill="#DDF4FF", width=2)
-    draw.text((40, 59), "Curiosity into code.", font=font(34), fill="#F8FAFC")
-    draw.text((40, 104), "Data into decisions.", font=font(34), fill="#BDCFDC")
-    draw.text((42, 177), "EXPLORE / BUILD / REFINE", font=font(14), fill="#8EACBF")
-    return image
-
-
 def save_loop(name, composition):
     rendered = [composition(frame) for frame in loop]
     sample = Image.new("RGB", (960, rendered[0].height * 3))
@@ -84,48 +74,6 @@ def save_loop(name, composition):
 
 save_loop("hero-cinematic.gif", hero)
 hero(loop[25]).save(assets / "hero-cinematic.jpg", quality=95, optimize=True)
-save_loop("footer-cinematic.gif", footer)
-footer(loop[25]).save(assets / "footer-cinematic.jpg", quality=95, optimize=True)
-projects = [
-    ("kinsight", "01 / HEALTHCARE INTELLIGENCE", "KinSight", "Multilingual risk education / Human-guided decisions"),
-    ("solarda", "02 / AGENTIC AGRICULTURE", "Solarda", "Safety-gated agents / Vision / Sensor forecasting"),
-    ("exodetect", "03 / SCIENTIFIC MACHINE LEARNING", "ExoDetect", "Kepler light curves / Calibrated classification"),
-    ("legal", "04 / DOCUMENT INTELLIGENCE", "Legal Assurance", "Contracts / Regulatory change / Evidence"),
-    ("nwis", "05 / GEOSPATIAL DECISION SUPPORT", "eRTMAC-NWIS", "Nearby-well intelligence / Advisory workflows"),
-    ("edunova", "06 / IMMERSIVE EDUCATION", "EduNova", "Science worlds / 3D learning / Interactive quests"),
-]
-for index, (slug, category, title, subtitle) in enumerate(projects):
-    image = stage(frames[index * 15 + 5], 210, 510, 460)
-    draw = ImageDraw.Draw(image)
-    draw.text((38, 26), category, font=font(14), fill="#A0BED1")
-    draw.text((36, 65), title, font=font(46, True), fill="#F8FAFC")
-    draw.text((38, 145), subtitle, font=font(16), fill="#C6D9E6")
-    image.save(assets / f"project-{slug}.jpg", quality=95, optimize=True)
-
-identity = Image.new("RGB", (960, 240), "#080E16")
-draw = ImageDraw.Draw(identity)
-draw.rounded_rectangle((1, 1, 958, 238), radius=16, outline="#394B5C")
-draw.polygon([(28, 20), (224, 20), (236, 32), (236, 226), (40, 226), (28, 214)], fill="#203346")
-draw.rectangle((28, 20, 224, 216), fill="#E6EEF3")
-photo = Image.open(assets / "portrait.png").convert("RGB").resize((184, 184), Image.Resampling.LANCZOS)
-identity.paste(photo, (34, 26))
-draw.text((270, 43), "Loktrishal K", font=font(39, True), fill="#F5FAFF")
-draw.text((272, 111), "AI & Data Science Engineer", font=font(23), fill="#C6D9E6")
-draw.text((272, 148), "Full Stack Developer", font=font(23), fill="#C6D9E6")
-draw.text((274, 198), "CHENNAI, INDIA", font=font(15), fill="#8EACBF")
-identity.save(assets / "identity-cinematic.jpg", quality=96, optimize=True)
-mobile_identity = Image.new("RGB", (520, 240), "#080E16")
-draw = ImageDraw.Draw(mobile_identity)
-draw.rounded_rectangle((1, 1, 518, 238), radius=14, outline="#394B5C")
-draw.polygon([(22,40),(178,40),(186,48),(186,204),(30,204),(22,196)],fill="#294156")
-draw.rectangle((22,40,178,196),fill="#E6EEF3")
-mobile_identity.paste(photo.resize((144,144),Image.Resampling.LANCZOS),(28,46))
-draw.text((202,43),"Loktrishal K",font=font(29,True),fill="#F5FAFF")
-draw.text((202,101),"AI & Data Science Engineer",font=font(17),fill="#C6D9E6")
-draw.text((202,133),"Full Stack Developer",font=font(17),fill="#C6D9E6")
-draw.text((203,182),"CHENNAI, INDIA",font=font(13),fill="#8EACBF")
-mobile_identity.save(assets / "identity-mobile.jpg",quality=96,optimize=True)
-
 logos = Image.open(assets / "toolbox-logos.png").convert("RGB")
 assert logos.size == (600, 180)
 groups = {"build": list(range(12)), "ai": list(range(12,21)), "delivery": list(range(21,30))}
@@ -150,4 +98,4 @@ for category, indices in groups.items():
         tools.paste(icon,(x+8,y+8),icon_mask)
         draw.line((x+15,y+1,x+size-15,y+1),fill="#819BAB")
     tools.save(assets / f"toolbox-{category}.png", optimize=True)
-print("Verified: six project panels and two 92-frame seamless motion banners")
+print("Verified: hero loop and three categorized toolbox panels")
