@@ -21,9 +21,19 @@
 
 <table>
 <tr>
-<td width="68%" valign="top">
+<td width="25%" align="center" valign="middle"><img src="./assets/portrait.png" width="180" alt="Loktrishal K — professional headshot on a white background"></td>
+<td width="75%" valign="middle">
 
-I'm **Loktrishal K**, an AI & Data Science Engineer and Full Stack Developer. I connect machine learning, analytical modeling and thoughtful interfaces to build systems people can understand and use.
+### Loktrishal K
+**AI & Data Science Engineer · Full Stack Developer**
+
+Chennai, India
+
+I connect machine learning, analytical modeling and thoughtful interfaces to build systems people can understand and use.
+
+</td>
+</tr>
+</table>
 
 - **AI & machine learning:** computer vision, classification, forecasting and grounded AI applications.
 - **Data & analytics:** turning raw data into useful features, clear visualizations and evidence.
@@ -32,14 +42,6 @@ I'm **Loktrishal K**, an AI & Data Science Engineer and Full Stack Developer. I 
 - **Recent work:** healthcare education, agricultural agents, exoplanet detection and decision-support prototypes.
 
 I enjoy the whole path from a difficult question to a working product: exploring the data, building the model, shaping the interface and testing how the pieces behave together.
-
-</td>
-<td width="32%" align="center" valign="top"> <img src="./assets/portrait.png" width="250" alt="Loktrishal K — cropped professional headshot on a clean white background">
-<br>
-<sub>Chennai, India · Building with curiosity</sub>
-</td>
-</tr>
-</table>
 
 <details>
 <summary><b>A little more about how I work</b></summary>
@@ -57,9 +59,6 @@ class Loktrishal:
 **What connects my projects:** useful intelligence, understandable outputs and clear boundaries between a demo, a model prediction and a real-world decision.
 
 </details>
-
-<p align="center"> <a href="https://loktrishal-portfolio.vercel.app"><img src="./assets/engineering-orbit.svg" width="100%" alt="My engineering orbit: understand the evidence, build models and interfaces, then evaluate and improve. Animated three-dimensional globe and orbital lights."></a>
-</p>
 
 ## Featured projects
 
@@ -166,33 +165,19 @@ A gamified science-learning platform organized around biology, chemistry and phy
 
 ## Technical toolbox
 
-<div align="center">
+<p align="left">
+<img src="https://skillicons.dev/icons?i=python,ts,js,dart,html,css,react,nextjs,nodejs,tailwind&theme=dark&perline=10" width="100%" alt="Python, TypeScript, JavaScript, Dart, HTML, CSS, React, Next.js, Node.js and Tailwind CSS">
+</p>
 
-**Languages**
+<p align="left">
+<img src="https://skillicons.dev/icons?i=flutter,threejs,pytorch,tensorflow,sklearn,opencv,fastapi,flask,postgres,mysql&theme=dark&perline=10" width="100%" alt="Flutter, Three.js, PyTorch, TensorFlow, scikit-learn, OpenCV, FastAPI, Flask, PostgreSQL and MySQL">
+</p>
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,dart,html,css&theme=dark&perline=6" alt="Python, TypeScript, JavaScript, Dart, HTML and CSS">
+<p align="left">
+<img src="https://skillicons.dev/icons?i=mongodb,supabase,firebase,vercel,docker,git,github,githubactions,vscode,figma&theme=dark&perline=10" width="100%" alt="MongoDB, Supabase, Firebase, Vercel, Docker, Git, GitHub, GitHub Actions, VS Code and Figma">
+</p>
 
-**Web, mobile & creative interfaces**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,flutter,threejs&theme=dark&perline=6" alt="React, Next.js, Node.js, Tailwind CSS, Flutter and Three.js">
-
-**AI, computer vision & APIs**
-
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,fastapi,flask&theme=dark&perline=6" alt="PyTorch, TensorFlow, scikit-learn, OpenCV, FastAPI and Flask">
-
-**Databases & cloud**
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,supabase,firebase,vercel&theme=dark&perline=6" alt="PostgreSQL, MySQL, MongoDB, Supabase, Firebase and Vercel">
-
-**Engineering tools**
-
-<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vscode,figma&theme=dark&perline=6" alt="Docker, Git, GitHub, GitHub Actions, VS Code and Figma">
-
-**Data analysis & visualization**
-
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logoColor=111827" alt="Power BI"> <img src="https://img.shields.io/badge/Pandas-0B1018?style=for-the-badge&logo=pandas&logoColor=7DD3FC" alt="Pandas"> <img src="https://img.shields.io/badge/NumPy-0B1018?style=for-the-badge&logo=numpy&logoColor=99F6E4" alt="NumPy"> <img src="https://img.shields.io/badge/Jupyter-0B1018?style=for-the-badge&logo=jupyter&logoColor=FDE68A" alt="Jupyter"> <img src="https://img.shields.io/badge/Gemini-0B1018?style=for-the-badge&logo=googlegemini&logoColor=7DD3FC" alt="Gemini">
-
-</div>
+**Analytics & AI tools:** Power BI · Pandas · NumPy · Jupyter · Gemini
 
 ## GitHub analytics
 
@@ -245,16 +230,8 @@ I'm interested in conversations about **AI applications, data visualization, ful
 <div align="center">
 
 <a href="https://www.linkedin.com/in/loktrishal-k-230294376/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0B1018?style=for-the-badge&logo=linkedin&logoColor=7DD3FC" alt="Connect on LinkedIn"></a> <a href="mailto:loktrishal.k@gmail.com"><img src="https://img.shields.io/badge/Start_a_Conversation-0B1018?style=for-the-badge&logo=gmail&logoColor=99F6E4" alt="Send me an email"></a> <a href="https://loktrishal-portfolio.vercel.app"><img src="https://img.shields.io/badge/Enter_the_3D_Portfolio-0B1018?style=for-the-badge&logo=threedotjs&logoColor=F8FAFC" alt="Enter my interactive 3D portfolio"></a>
+</div>
 
-<details>
-<summary>Open the observatory</summary>
-
-<img src="./assets/galaxy-spin.gif" width="280" alt="A luminous white spiral galaxy rotating slowly through space">
-
-**Curiosity into code. Data into decisions.**
-
-</details>
+<p align="left"><a href="https://loktrishal-portfolio.vercel.app"><img src="./assets/observatory.gif" width="100%" alt="Curiosity into code. Data into decisions. A luminous galaxy rotates beside the message."></a></p>
 
 [Back to the top](#)
-
-</div>
