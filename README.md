@@ -1,4 +1,4 @@
-<p align="center"> <a href="https://loktrishal-portfolio.vercel.app"><img src="./assets/hero.png" width="100%" alt="Loktrishal K — AI, Data Science and Full Stack. Explore my interactive portfolio."></a> <img src="./assets/typing.svg" width="100%" alt="AI and Data Science Engineer · Full Stack Developer · Machine Learning, Computer Vision and Analytics">
+<p align="center"> <a href="https://loktrishal-portfolio.vercel.app"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-cinematic.jpg"><img src="./assets/hero-cinematic.gif" width="100%" alt="Loktrishal K — AI, Data Science and Full Stack. Explore my interactive portfolio."></picture></a> <img src="./assets/typing.svg" width="100%" alt="AI and Data Science Engineer · Full Stack Developer · Machine Learning, Computer Vision and Analytics">
 </p>
 
 <div align="center">
@@ -7,9 +7,11 @@
 
 **Chennai, India** · AI & Data Science · Full Stack Development
 
-<a href="https://github.com/loktrishal-05?tab=followers"><img src="https://img.shields.io/github/followers/loktrishal-05?label=Followers&style=for-the-badge&color=7DD3FC&labelColor=0B1018" alt="GitHub followers"></a> <a href="https://github.com/loktrishal-05?tab=repositories"><img src="https://img.shields.io/github/stars/loktrishal-05?label=Stars&style=for-the-badge&color=99F6E4&labelColor=0B1018" alt="Stars across my GitHub repositories"></a> <img src="https://komarev.com/ghpvc/?username=loktrishal-05&label=Profile%20Views&style=for-the-badge&color=0284c7" alt="Profile view counter">
+<a href="https://github.com/loktrishal-05?tab=followers"><img src="https://img.shields.io/github/followers/loktrishal-05?label=Followers&style=for-the-badge&color=7DD3FC&labelColor=0B1018" alt="GitHub followers"></a> <a href="https://github.com/loktrishal-05?tab=repositories"><img src="https://img.shields.io/github/stars/loktrishal-05?label=Stars&style=for-the-badge&color=99F6E4&labelColor=0B1018" alt="Stars across my GitHub repositories"></a>
 
 <a href="https://loktrishal-portfolio.vercel.app"><img src="https://img.shields.io/badge/Explore_3D_Portfolio-0B1018?style=for-the-badge&logo=threedotjs&logoColor=7DD3FC" alt="Explore my interactive 3D portfolio"></a> <a href="https://www.linkedin.com/in/loktrishal-k-230294376/"><img src="https://img.shields.io/badge/LinkedIn-0B1018?style=for-the-badge&logo=linkedin&logoColor=7DD3FC" alt="Connect on LinkedIn"></a> <a href="mailto:loktrishal.k@gmail.com"><img src="https://img.shields.io/badge/Email-0B1018?style=for-the-badge&logo=gmail&logoColor=99F6E4" alt="Email Loktrishal"></a>
+
+[Source motion (MP4)](./assets/orbit-source.mp4)
 
 [About](#about-me) · [Projects](#featured-projects) · [Toolbox](#technical-toolbox) · [GitHub Analytics](#github-analytics) · [3D Contributions](#3d-contribution-landscape) · [Connect](#lets-connect)
 
@@ -19,21 +21,12 @@
 
 ## About me
 
-<table>
-<tr>
-<td width="25%" align="center" valign="middle"><img src="./assets/portrait.png" width="180" alt="Loktrishal K — professional headshot on a white background"></td>
-<td width="75%" valign="middle">
-
-### Loktrishal K
-**AI & Data Science Engineer · Full Stack Developer**
-
-Chennai, India
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/identity-mobile.jpg">
+  <img src="./assets/identity-cinematic.jpg" width="100%" alt="Loktrishal K, AI and Data Science Engineer and Full Stack Developer in Chennai, India. Original portrait in a dimensional metal frame.">
+</picture>
 
 I connect machine learning, analytical modeling and thoughtful interfaces to build systems people can understand and use.
-
-</td>
-</tr>
-</table>
 
 - **AI & machine learning:** computer vision, classification, forecasting and grounded AI applications.
 - **Data & analytics:** turning raw data into useful features, clear visualizations and evidence.
@@ -62,86 +55,64 @@ class Loktrishal:
 
 ## Featured projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### KinSight
-**Healthcare · Multilingual experience**
-
-A navigator that explains inherited-risk screening in plain language and keeps genetic counselling in the loop. Built as a **fictional healthcare demo**, with synthetic people and results.
+<p><a href="https://github.com/loktrishal-05/kinsight"><img src="./assets/project-kinsight.jpg" width="100%" alt="KinSight — cinematic project panel with glass and metal orbital forms"></a></p>
 
 **Next.js · TypeScript · Multilingual UI**
 
+A multilingual navigator that explains inherited-risk screening in plain language and keeps genetic counselling in the loop. Built as a **fictional healthcare demo** with synthetic people and results.
+
 [Explore source](https://github.com/loktrishal-05/kinsight) · [Try the demo](https://kinsight-five.vercel.app)
 
-</td>
-<td width="50%" valign="top">
+---
 
-### Solarda
-**Agentic AI · Smart agriculture**
-
-Safety-gated farm agents, a multilingual assistant, plant-disease vision and sensor forecasting. Uses **replayed data**, with actions checked by a deterministic safety engine.
+<p><a href="https://github.com/loktrishal-05/Solar-Da"><img src="./assets/project-solarda.jpg" width="100%" alt="Solarda — cinematic project panel with glass and metal orbital forms"></a></p>
 
 **TypeScript · Python · Gemini · Docker**
 
-[Explore source](https://github.com/loktrishal-05/Solar-Da) · [UI preview](https://solarda.vercel.app)
+Safety-gated farm agents, a multilingual assistant, plant-disease vision and sensor forecasting. Uses **replayed data** and a deterministic safety engine to check proposed actions.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+[Explore source](https://github.com/loktrishal-05/Solar-Da) · [View the UI preview](https://solarda.vercel.app)
 
-### ExoDetect
-**Space science · Machine learning**
+---
 
-Finds exoplanet candidates in noisy Kepler light curves using transit features and a calibrated classifier. Built for **ISRO Bhartiya Antariksh Hackathon 2026**.
+<p><a href="https://github.com/loktrishal-05/exoplanet-detection"><img src="./assets/project-exodetect.jpg" width="100%" alt="ExoDetect — cinematic project panel with glass and metal orbital forms"></a></p>
 
 **Python · XGBoost · ONNX**
 
+Exoplanet candidate detection from noisy Kepler light curves, using transit features and a calibrated classifier. Built for **ISRO Bhartiya Antariksh Hackathon 2026**.
+
 [Explore source](https://github.com/loktrishal-05/exoplanet-detection) · [Try the demo](https://exodetect-isro-bah.netlify.app)
 
-</td>
-<td width="50%" valign="top">
+---
 
-### Legal & Regulatory Assurance
-**Document intelligence · Evidence**
-
-Contract intelligence, regulatory change and compliance workflows that connect documents, interpretations and accountable decisions. **In development**, with source checkpoints documented.
+<p><a href="https://github.com/loktrishal-05/legal-compliance-regulatory-workbench"><img src="./assets/project-legal.jpg" width="100%" alt="Legal & Regulatory Assurance — cinematic project panel with glass and metal orbital forms"></a></p>
 
 **FastAPI · React · PostgreSQL**
 
-[Explore source and architecture](https://github.com/loktrishal-05/legal-compliance-regulatory-workbench)
+Contract intelligence, regulatory change and compliance workflows connecting documents, interpretations and accountable decisions. **In development**, with source checkpoints documented.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+[Explore source](https://github.com/loktrishal-05/legal-compliance-regulatory-workbench) · [Read the architecture](https://github.com/loktrishal-05/legal-compliance-regulatory-workbench#system-design)
 
-### eRTMAC-NWIS
-**Geospatial intelligence · Decision support**
+---
 
-Nearby-well intelligence and advisory drilling support. Demonstrated on **synthetic data**, with replayed telemetry and a human decision-maker.
+<p><a href="https://github.com/loktrishal-05/ertmac-nwis"><img src="./assets/project-nwis.jpg" width="100%" alt="eRTMAC-NWIS — cinematic project panel with glass and metal orbital forms"></a></p>
 
 **FastAPI · React · PostGIS · LangGraph**
 
-[Explore source and prototype scope](https://github.com/loktrishal-05/ertmac-nwis)
+Nearby-well intelligence and advisory drilling support. The prototype uses **synthetic data and replayed telemetry**, with a human decision-maker.
 
-</td>
-<td width="50%" valign="top">
+[Explore source](https://github.com/loktrishal-05/ertmac-nwis) · [Read the prototype scope](https://github.com/loktrishal-05/ertmac-nwis#-problem)
 
-### EduNova
-**Education · Interactive 3D**
+---
 
-A gamified science-learning platform organized around biology, chemistry and physics worlds, with 3D visuals, video quests and learning progress interfaces.
+<p><a href="https://github.com/loktrishal-05/EduNova"><img src="./assets/project-edunova.jpg" width="100%" alt="EduNova — cinematic project panel with glass and metal orbital forms"></a></p>
 
 **Next.js · Three.js · React Three Fiber · GSAP**
 
+A gamified science-learning platform with biology, chemistry and physics worlds, 3D visuals, video quests and learning-progress interfaces.
+
 [Explore source](https://github.com/loktrishal-05/EduNova) · [Visit the project](https://edu-nova-dun.vercel.app)
 
-</td>
-</tr>
-</table>
 
 <details>
 <summary><b>More projects: healthcare web, analytics and creative development</b></summary>
@@ -165,32 +136,37 @@ A gamified science-learning platform organized around biology, chemistry and phy
 
 ## Technical toolbox
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=python,ts,js,dart,html,css,react,nextjs,nodejs,tailwind&theme=dark&perline=10" width="100%" alt="Python, TypeScript, JavaScript, Dart, HTML, CSS, React, Next.js, Node.js and Tailwind CSS">
-</p>
-
-<p align="left">
-<img src="https://skillicons.dev/icons?i=flutter,threejs,pytorch,tensorflow,sklearn,opencv,fastapi,flask,postgres,mysql&theme=dark&perline=10" width="100%" alt="Flutter, Three.js, PyTorch, TensorFlow, scikit-learn, OpenCV, FastAPI, Flask, PostgreSQL and MySQL">
-</p>
-
-<p align="left">
-<img src="https://skillicons.dev/icons?i=mongodb,supabase,firebase,vercel,docker,git,github,githubactions,vscode,figma&theme=dark&perline=10" width="100%" alt="MongoDB, Supabase, Firebase, Vercel, Docker, Git, GitHub, GitHub Actions, VS Code and Figma">
-</p>
+<p><img src="./assets/toolbox-depth.png" width="100%" alt="Thirty raised tool tiles: Python, TypeScript, JavaScript, Dart, HTML, CSS, React, Next.js, Node.js, Tailwind CSS, Flutter, Three.js, PyTorch, TensorFlow, scikit-learn, OpenCV, FastAPI, Flask, PostgreSQL, MySQL, MongoDB, Supabase, Firebase, Vercel, Docker, Git, GitHub, GitHub Actions, VS Code and Figma"></p>
 
 **Analytics & AI tools:** Power BI · Pandas · NumPy · Jupyter · Gemini
 
 ## GitHub analytics
 
-<p align="center"> <img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/streak.svg" width="100%" alt="Contribution total and streaks over the last 365 days, refreshed daily from GitHub">
-</p>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/dashboard-mobile.svg">
+  <img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/dashboard.svg" width="100%" alt="Dimensional GitHub dashboard: contributions, streaks, public repository languages and the last eight weeks of activity">
+</picture>
 
-<p align="center"> <a href="https://github.com/loktrishal-05?tab=repositories"><img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/cards/3-stats.svg" width="49%" alt="GitHub stats"></a> <img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/cards/1-repos-per-language.svg" width="49%" alt="Repositories by language"> <img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/cards/2-most-commit-language.svg" width="49%" alt="Languages by commit activity"> <img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/cards/4-productive-time.svg" width="49%" alt="Commit activity by time of day, UTC plus 5:30">
-</p>
+**Live GitHub data, refreshed daily.** The ring counts primary languages across public non-fork repositories. Streaks cover the last 365 days in UTC; the latest contribution week is partial.
 
-### Contribution timeline
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/cards/analytics-depth-mobile.svg">
+  <img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/cards/analytics-depth.svg" width="100%" alt="Dimensional language-by-commit ring and extruded time-of-day contribution bars">
+</picture>
 
-<p align="center"> <a href="https://github.com/loktrishal-05?tab=overview"><img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/cards/0-profile-details.svg" width="100%" alt="GitHub contribution activity timeline"></a>
-</p>
+<details>
+<summary><b>Full metrics and contribution timeline</b></summary>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/cards/metrics-depth-mobile.svg">
+  <img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/cards/metrics-depth.svg" width="100%" alt="GitHub stars, commits, pull requests, issues and repository language distribution">
+</picture>
+
+<p><img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/cards/0-profile-details.svg" width="100%" alt="GitHub contribution activity timeline"></p>
+
+</details>
+
+
 
 ## 3D contribution landscape
 
@@ -232,6 +208,6 @@ I'm interested in conversations about **AI applications, data visualization, ful
 <a href="https://www.linkedin.com/in/loktrishal-k-230294376/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0B1018?style=for-the-badge&logo=linkedin&logoColor=7DD3FC" alt="Connect on LinkedIn"></a> <a href="mailto:loktrishal.k@gmail.com"><img src="https://img.shields.io/badge/Start_a_Conversation-0B1018?style=for-the-badge&logo=gmail&logoColor=99F6E4" alt="Send me an email"></a> <a href="https://loktrishal-portfolio.vercel.app"><img src="https://img.shields.io/badge/Enter_the_3D_Portfolio-0B1018?style=for-the-badge&logo=threedotjs&logoColor=F8FAFC" alt="Enter my interactive 3D portfolio"></a>
 </div>
 
-<p align="left"><a href="https://loktrishal-portfolio.vercel.app"><img src="./assets/observatory.gif" width="100%" alt="Curiosity into code. Data into decisions. A luminous galaxy rotates beside the message."></a></p>
+<p align="left"><a href="https://loktrishal-portfolio.vercel.app"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/footer-cinematic.jpg"><img src="./assets/footer-cinematic.gif" width="100%" alt="Curiosity into code. Data into decisions. The supplied glass and metal orbital film plays beside the message."></picture></a></p>
 
 [Back to the top](#)

@@ -4,6 +4,7 @@ import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from dashboard_art import render_dashboard
 
 
 def streaks(counts):
@@ -28,6 +29,9 @@ now = datetime.now(timezone.utc)
 start = now - timedelta(days=364)
 query = '''query($from:DateTime!,$to:DateTime!){
   user(login:"loktrishal-05"){
+    repositories(first:100,privacy:PUBLIC,isFork:false,ownerAffiliations:OWNER){
+      totalCount nodes{primaryLanguage{name}}
+    }
     contributionsCollection(from:$from,to:$to){
       contributionCalendar{weeks{contributionDays{date contributionCount}}}
     }
@@ -63,4 +67,8 @@ svg += [f'<text x="450" y="182" font-size="12" fill="#94A3B8">GitHub contributio
 destination = Path(sys.argv[1])
 destination.parent.mkdir(parents=True, exist_ok=True)
 destination.write_text("\n".join(svg) + "\n", encoding="utf-8")
+repositories = data["data"]["user"]["repositories"]
+# shortcut: the language chart covers up to 100 public repositories; paginate before exceeding 100.
+assert repositories["totalCount"] <= 100, "Add repository pagination before publishing a partial dashboard"
+render_dashboard(destination.parent, repositories["nodes"], days, current, longest, now.date())
 print(f"Verified streak card: {current} current, {longest} longest in window")
