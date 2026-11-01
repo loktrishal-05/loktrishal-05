@@ -67,6 +67,13 @@ svg += [f'<text x="450" y="182" font-size="12" fill="#94A3B8">GitHub contributio
 destination = Path(sys.argv[1])
 destination.parent.mkdir(parents=True, exist_ok=True)
 destination.write_text("\n".join(svg) + "\n", encoding="utf-8")
+badge = f'''<svg xmlns="http://www.w3.org/2000/svg" width="185" height="28" role="img" aria-label="Contributions in the last 365 days: {sum(counts):,}">
+<title>Contributions in the last 365 days: {sum(counts):,}</title>
+<path fill="#0B1018" d="M0 0h135v28H0z"/><path fill="#E2E8F0" d="M135 0h50v28h-50z"/>
+<g font-family="Verdana,Arial,sans-serif" text-anchor="middle" font-weight="700">
+<text x="67.5" y="18" fill="#FFF" font-size="9.5" letter-spacing="1">CONTRIBUTIONS</text>
+<text x="160" y="18" fill="#0B1018" font-size="10.5">{sum(counts):,}</text></g></svg>'''
+(destination.parent / "contributions.svg").write_text(badge, encoding="utf-8")
 repositories = data["data"]["user"]["repositories"]
 # shortcut: the language chart covers up to 100 public repositories; paginate before exceeding 100.
 assert repositories["totalCount"] <= 100, "Add repository pagination before publishing a partial dashboard"

@@ -7,7 +7,7 @@
 
 **Chennai, India** · AI & Data Science · Full Stack Development
 
-<a href="https://github.com/loktrishal-05?tab=followers"><img src="https://img.shields.io/github/followers/loktrishal-05?label=Followers&style=for-the-badge&color=7DD3FC&labelColor=0B1018" alt="GitHub followers"></a> <a href="https://github.com/loktrishal-05?tab=repositories"><img src="https://img.shields.io/github/stars/loktrishal-05?label=Stars&style=for-the-badge&color=99F6E4&labelColor=0B1018" alt="Stars across my GitHub repositories"></a>
+<a href="https://github.com/loktrishal-05?tab=followers"><img src="https://img.shields.io/github/followers/loktrishal-05?label=Followers&style=for-the-badge&color=7DD3FC&labelColor=0B1018" alt="GitHub followers"></a> <a href="https://github.com/loktrishal-05?tab=repositories"><img src="https://img.shields.io/github/stars/loktrishal-05?label=Stars&style=for-the-badge&color=99F6E4&labelColor=0B1018" alt="Stars across my GitHub repositories"></a> <a href="#github-analytics"><img src="https://raw.githubusercontent.com/loktrishal-05/loktrishal-05/output/contributions.svg" alt="GitHub contributions in the last 365 days"></a>
 
 <a href="https://loktrishal-portfolio.vercel.app"><img src="https://img.shields.io/badge/Explore_3D_Portfolio-0B1018?style=for-the-badge&logo=threedotjs&logoColor=7DD3FC" alt="Explore my interactive 3D portfolio"></a> <a href="https://www.linkedin.com/in/loktrishal-k-230294376/"><img src="https://img.shields.io/badge/LinkedIn-0B1018?style=for-the-badge&logo=linkedin&logoColor=7DD3FC" alt="Connect on LinkedIn"></a> <a href="mailto:loktrishal.k@gmail.com"><img src="https://img.shields.io/badge/Email-0B1018?style=for-the-badge&logo=gmail&logoColor=99F6E4" alt="Email Loktrishal"></a>
 
