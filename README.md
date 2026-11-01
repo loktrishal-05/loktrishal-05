@@ -131,11 +131,11 @@ class Loktrishal:
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#8](https://github.com/Harsha-code-per/Cadence/pull/8) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
-2. 💪 Opened PR [#7](https://github.com/Harsha-code-per/Cadence/pull/7) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
-3. 💪 Opened PR [#6](https://github.com/Harsha-code-per/Cadence/pull/6) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
-4. 💪 Opened PR [#2](https://github.com/loktrishal-05/Solar-Da/pull/2) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
-5. 🎉 Merged PR [#1](https://github.com/loktrishal-05/Solar-Da/pull/1) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
+1. 🎉 Merged PR [#78](https://github.com/Harsha-code-per/Cadence/pull/78) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
+2. 🎉 Merged PR [#77](https://github.com/Harsha-code-per/Cadence/pull/77) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
+3. 💪 Opened PR [#78](https://github.com/Harsha-code-per/Cadence/pull/78) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
+4. 💪 Opened PR [#77](https://github.com/Harsha-code-per/Cadence/pull/77) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
+5. 🎉 Merged PR [#73](https://github.com/Harsha-code-per/Cadence/pull/73) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
 <!--END_SECTION:activity-->
 
 <!-- ═══════════════════════ CONNECT ═══════════════════════ -->
