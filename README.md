@@ -47,7 +47,7 @@ class Loktrishal:
 </td>
 <td width="35%" align="center" valign="middle">
 
-<img src="./assets/arise.gif" alt="Arise" width="100%">
+<img src="./assets/portrait.png" alt="Portrait of Loktrishal K with a subtle purple halftone background" width="100%">
 
 </td>
 </tr>
