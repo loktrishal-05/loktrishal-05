@@ -136,9 +136,19 @@ A gamified science-learning platform with biology, chemistry and physics worlds,
 
 ## Technical toolbox
 
-<p><img src="./assets/toolbox-depth.png" width="100%" alt="Thirty raised tool tiles: Python, TypeScript, JavaScript, Dart, HTML, CSS, React, Next.js, Node.js, Tailwind CSS, Flutter, Three.js, PyTorch, TensorFlow, scikit-learn, OpenCV, FastAPI, Flask, PostgreSQL, MySQL, MongoDB, Supabase, Firebase, Vercel, Docker, Git, GitHub, GitHub Actions, VS Code and Figma"></p>
+### 💻 Languages & App Development
+
+<p><img src="./assets/toolbox-build.png" width="100%" alt="Python, TypeScript, JavaScript, Dart, HTML, CSS, React, Next.js, Node.js, Tailwind CSS, Flutter and Three.js"></p>
+
+### 🧠 AI, Data & APIs
+
+<p><img src="./assets/toolbox-ai.png" width="100%" alt="PyTorch, TensorFlow, scikit-learn, OpenCV, FastAPI, Flask, PostgreSQL, MySQL and MongoDB"></p>
 
 **Analytics & AI tools:** Power BI · Pandas · NumPy · Jupyter · Gemini
+
+### ☁️ Cloud, Delivery & Design
+
+<p><img src="./assets/toolbox-delivery.png" width="100%" alt="Supabase, Firebase, Vercel, Docker, Git, GitHub, GitHub Actions, VS Code and Figma"></p>
 
 ## GitHub analytics
 

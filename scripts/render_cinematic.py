@@ -128,20 +128,26 @@ mobile_identity.save(assets / "identity-mobile.jpg",quality=96,optimize=True)
 
 logos = Image.open(assets / "toolbox-logos.png").convert("RGB")
 assert logos.size == (600, 180)
-tools = Image.new("RGB", (960, 315), "#080E16")
-draw = ImageDraw.Draw(tools)
-draw.rounded_rectangle((1, 1, 958, 313), radius=16, outline="#394B5C")
-for row in range(3):
-    for column in range(10):
-        x, y, size = 19+column*92, 14+row*96, 77
+groups = {"build": list(range(12)), "ai": list(range(12,21)), "delivery": list(range(21,30))}
+assert sorted(index for indices in groups.values() for index in indices) == list(range(30))
+for category, indices in groups.items():
+    tools = Image.new("RGB", (960, 110), "#080E16")
+    draw = ImageDraw.Draw(tools)
+    draw.rounded_rectangle((1, 1, 958, 108), radius=16, outline="#394B5C")
+    pitch = 920 / len(indices)
+    size = min(77, int(pitch)-12)
+    icon_side = size-16
+    for column, index in enumerate(indices):
+        row, source_column = divmod(index, 10)
+        x, y = round(20+column*pitch+(pitch-size)/2), (110-size-10)//2
         draw.rounded_rectangle((x+6,y+9,x+size+7,y+size+10),radius=13,fill="#010408")
         draw.polygon([(x+size,y+9),(x+size+6,y+15),(x+size+6,y+size),(x+size,y+size-4)],fill="#294156")
         draw.polygon([(x+9,y+size),(x+size-4,y+size),(x+size+3,y+size+6),(x+15,y+size+6)],fill="#182A3A")
         draw.rounded_rectangle((x,y,x+size,y+size),radius=13,fill="#152333",outline="#476074")
-        icon = logos.crop((column*60,row*60,(column+1)*60,(row+1)*60))
-        icon_mask = Image.new("L", (60,60), 0)
-        ImageDraw.Draw(icon_mask).rounded_rectangle((0,0,59,59),radius=12,fill=255)
+        icon = logos.crop((source_column*60,row*60,(source_column+1)*60,(row+1)*60)).resize((icon_side,icon_side),Image.Resampling.LANCZOS)
+        icon_mask = Image.new("L", (icon_side,icon_side), 0)
+        ImageDraw.Draw(icon_mask).rounded_rectangle((0,0,icon_side-1,icon_side-1),radius=round(icon_side*.2),fill=255)
         tools.paste(icon,(x+8,y+8),icon_mask)
         draw.line((x+15,y+1,x+size-15,y+1),fill="#819BAB")
-tools.save(assets / "toolbox-depth.png", optimize=True)
+    tools.save(assets / f"toolbox-{category}.png", optimize=True)
 print("Verified: six project panels and two 92-frame seamless motion banners")
