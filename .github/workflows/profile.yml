@@ -46,16 +46,16 @@ jobs:
           ANIMATION: sequence
           DURATION: 4
 
-      - name: Generate contribution streak card
-        run: python scripts/render_streak.py dist/streak.svg
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - run: |
           sudo chown -R $USER dist
           mkdir -p dist/profile-3d-contrib dist/cards
           cp profile-3d-contrib/*.svg dist/profile-3d-contrib/
           cp profile-summary-card-output/github_dark/*.svg dist/cards/
+
+      - name: Generate contribution streak card
+        run: python scripts/render_streak.py dist/streak.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
