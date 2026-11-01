@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" role="img" aria-labelledby="title desc">
+  <title id="title">From data to intelligent products</title>
+  <desc id="desc">An animated orbital system surrounds a three-dimensional globe. Data, models and interfaces come together in understandable products.</desc>
+  <defs>
+    <radialGradient id="space"><stop stop-color="#142B40"/><stop offset="1" stop-color="#0B1018"/></radialGradient>
+    <radialGradient id="globe" cx="30%" cy="25%"><stop stop-color="#D9F7FF"/><stop offset=".25" stop-color="#3A8EAE"/><stop offset=".7" stop-color="#102F48"/><stop offset="1" stop-color="#06121E"/></radialGradient>
+    <linearGradient id="rule"><stop stop-color="#7DD3FC"/><stop offset="1" stop-color="#99F6E4" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
+    <clipPath id="sphere"><circle r="74"/></clipPath>
+  </defs>
+  <style>
+    text{font-family:Inter,Segoe UI,Arial,sans-serif}
+    .orbit{animation:orbit 24s linear infinite;transform-origin:0px 0px}
+    .reverse{animation-direction:reverse;animation-duration:32s}
+    .float{animation:float 6s cubic-bezier(.77,0,.175,1) infinite}
+    @keyframes orbit{to{transform:rotate(360deg)}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @media(prefers-reduced-motion:reduce){.orbit,.float{animation:none}}
+  </style>
+  <rect width="1000" height="350" rx="18" fill="url(#space)"/>
+  <rect x=".5" y=".5" width="999" height="349" rx="18" fill="none" stroke="#23445E"/>
+  <g fill="#CBD5E1" opacity=".45"><circle cx="51" cy="35" r="1"/><circle cx="530" cy="78" r="1.2"/><circle cx="930" cy="49" r="1"/><circle cx="580" cy="290" r="1"/><circle cx="910" cy="300" r="1.3"/><circle cx="480" cy="305" r="1"/><circle cx="855" cy="81" r="1"/></g>
+  <text x="45" y="65" fill="#7DD3FC" font-size="12" letter-spacing="3">THE ENGINEERING ORBIT</text>
+  <text x="45" y="116" fill="#F8FAFC" font-size="31" font-weight="650">Data. Models. Products.</text>
+  <text x="45" y="151" fill="#CBD5E1" font-size="17">Connecting intelligence with human decisions.</text>
+  <path d="M45 177H440" stroke="url(#rule)"/>
+  <text x="45" y="214" fill="#99F6E4" font-size="14">01</text><text x="77" y="214" fill="#E2E8F0" font-size="15">Understand the problem and the evidence</text>
+  <text x="45" y="249" fill="#7DD3FC" font-size="14">02</text><text x="77" y="249" fill="#E2E8F0" font-size="15">Build the model, API and experience</text>
+  <text x="45" y="284" fill="#FDE68A" font-size="14">03</text><text x="77" y="284" fill="#E2E8F0" font-size="15">Evaluate, explain and improve</text>
+  <g transform="translate(750 176)">
+    <circle r="100" fill="#7DD3FC" opacity=".035"/>
+    <circle r="74" fill="url(#globe)"/>
+    <g clip-path="url(#sphere)" stroke="#B8EFFF" stroke-width=".65" fill="none" opacity=".38">
+      <ellipse rx="25" ry="74"/><ellipse rx="54" ry="74"/><ellipse rx="74" ry="25"/><ellipse rx="74" ry="51"/><path d="M-74 0H74M0-74V74"/>
+    </g>
+    <circle r="74" fill="none" stroke="#7DD3FC" opacity=".5"/>
+    <g transform="rotate(-25) scale(1 .4)">
+      <circle r="153" fill="none" stroke="#7DD3FC" stroke-opacity=".3"/>
+      <g class="orbit"><circle cx="153" r="9" fill="#7DD3FC" filter="url(#glow)"/><circle cx="153" r="5" fill="#F8FAFC"/></g>
+    </g>
+    <g transform="rotate(38) scale(1 .5)">
+      <circle r="125" fill="none" stroke="#99F6E4" stroke-opacity=".3"/>
+      <g class="orbit reverse"><circle cx="-125" r="7" fill="#99F6E4" filter="url(#glow)"/><circle cx="-125" r="4" fill="#99F6E4"/></g>
+    </g>
+    <g class="float">
+      <g transform="translate(117 -91)"><path d="M0 0L17-10 34 0 17 10Z" fill="#E0F2FE"/><path d="M0 0V20L17 30V10Z" fill="#327399"/><path d="M17 10L34 0V20L17 30Z" fill="#7DD3FC"/></g>
+      <g transform="translate(-145 65)"><path d="M0 0L12-7 24 0 12 7Z" fill="#CCFBF1"/><path d="M0 0V14L12 21V7Z" fill="#115E59"/><path d="M12 7L24 0V14L12 21Z" fill="#5EEAD4"/></g>
+    </g>
+  </g>
+  <text x="687" y="317" fill="#94A3B8" font-size="11" letter-spacing="2">EXPLORE · BUILD · REFINE</text>
+</svg>

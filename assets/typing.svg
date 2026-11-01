@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 55" role="img" aria-labelledby="title">
+  <title id="title">AI and Data Science Engineer. Full Stack Developer. Machine learning, computer vision and analytics.</title>
+  <style>
+    text{font:500 23px 'Fira Code',Consolas,monospace;fill:#7DD3FC;text-anchor:middle}
+    .line{opacity:0;animation:type 24s steps(35,end) infinite}
+    .two{animation-delay:6s}.three{animation-delay:12s}.four{animation-delay:18s}
+    @keyframes type{0%{opacity:1;clip-path:inset(0 100% 0 0)}9%,19%{opacity:1;clip-path:inset(0 0 0 0)}24%{opacity:1;clip-path:inset(0 100% 0 0)}25%,100%{opacity:0;clip-path:inset(0 100% 0 0)}}
+    @media(prefers-reduced-motion:reduce){.line{animation:none;opacity:0}.one{opacity:1}}
+  </style>
+  <text class="line one" x="425" y="35">AI &amp; Data Science Engineer</text>
+  <text class="line two" x="425" y="35">Full Stack Developer</text>
+  <text class="line three" x="425" y="35">Machine Learning · Computer Vision · Analytics</text>
+  <text class="line four" x="425" y="35">Building explainable, human-guided systems</text>
+</svg>

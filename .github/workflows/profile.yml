@@ -43,7 +43,13 @@ jobs:
           UTC_OFFSET: 5.5
           AUTO_PUSH: false
           THEME: github_dark
-          ANIMATION: draw
+          ANIMATION: sequence
+          DURATION: 4
+
+      - name: Generate contribution streak card
+        run: python scripts/render_streak.py dist/streak.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - run: |
           sudo chown -R $USER dist

@@ -1,17 +1,36 @@
-{
-  "type": "normal",
-  "backgroundColor": "#0B1018",
-  "foregroundColor": "#CBD5E1",
-  "strongColor": "#F8FAFC",
-  "weakColor": "#64748B",
-  "radarColor": "#7DD3FC",
-  "contribColors": [
-    "#172334",
-    "#23445E",
-    "#327399",
-    "#7DD3FC",
-    "#F1F5F9"
-  ],
-  "growingAnimation": true,
-  "fileName": "profile-starlight.svg"
-}
+[
+  {
+    "type": "normal",
+    "backgroundColor": "#0B1018",
+    "foregroundColor": "#CBD5E1",
+    "strongColor": "#F8FAFC",
+    "weakColor": "#64748B",
+    "radarColor": "#7DD3FC",
+    "contribColors": [
+      "#172334",
+      "#23445E",
+      "#327399",
+      "#7DD3FC",
+      "#F1F5F9"
+    ],
+    "growingAnimation": true,
+    "fileName": "profile-starlight.svg"
+  },
+  {
+    "type": "normal",
+    "backgroundColor": "#F8FAFC",
+    "foregroundColor": "#334155",
+    "strongColor": "#0F172A",
+    "weakColor": "#64748B",
+    "radarColor": "#0284C7",
+    "contribColors": [
+      "#E2E8F0",
+      "#BAE6FD",
+      "#7DD3FC",
+      "#38BDF8",
+      "#0284C7"
+    ],
+    "growingAnimation": true,
+    "fileName": "profile-starlight-light.svg"
+  }
+]
