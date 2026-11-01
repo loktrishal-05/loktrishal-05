@@ -19,22 +19,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Contribution snake — purple palette
+      # Contribution snake — starlight palette
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg?color_snake=#7B2FF7&color_dots=#EDE4F7,#E0AAFF,#C77DFF,#9D4EDD,#5A189A
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#C77DFF&color_dots=#1A0B2E,#3C096C,#5A189A,#9D4EDD,#E0AAFF
+            dist/github-snake.svg?color_snake=#0284C7&color_dots=#E2E8F0,#BAE6FD,#7DD3FC,#38BDF8,#0284C7
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#F8FAFC&color_dots=#172334,#23445E,#327399,#7DD3FC,#F1F5F9
 
-      # 3D contribution calendar — purple theme
+      # 3D contribution calendar — starlight theme
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: .github/3d-contrib.json
 
-      # Summary cards (contribution graph, langs, productive time) — midnight purple
+      # Summary cards (contribution graph, langs, productive time) — GitHub dark
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,14 +42,14 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           UTC_OFFSET: 5.5
           AUTO_PUSH: false
-          THEME: midnight_purple
+          THEME: github_dark
           ANIMATION: draw
 
       - run: |
           sudo chown -R $USER dist
           mkdir -p dist/profile-3d-contrib dist/cards
           cp profile-3d-contrib/*.svg dist/profile-3d-contrib/
-          cp profile-summary-card-output/midnight_purple/*.svg dist/cards/
+          cp profile-summary-card-output/github_dark/*.svg dist/cards/
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
