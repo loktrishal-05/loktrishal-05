@@ -1,4 +1,4 @@
-<p align="center"> <a href="https://loktrishal-portfolio.vercel.app"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-cinematic.jpg"><img src="./assets/hero-cinematic.gif" width="100%" alt="Loktrishal K — AI, Data Science and Full Stack. Explore my interactive portfolio."></picture></a> <img src="./assets/typing.svg" width="100%" alt="AI and Data Science Engineer · Full Stack Developer · Machine Learning, Computer Vision and Analytics">
+<p align="center"> <a href="https://loktrishal-portfolio.vercel.app"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-cinematic.jpg"><img src="./assets/hero-cinematic.gif" width="100%" alt="Loktrishal K — AI, Data Science and Full Stack. Explore my interactive portfolio."></picture></a> <img src="./assets/typing-emoji.svg" width="100%" alt="AI and Data Science Engineer · Full Stack Developer · Machine Learning, Computer Vision and Analytics">
 </p>
 
 <div align="center">
