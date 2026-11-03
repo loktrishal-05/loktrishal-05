@@ -207,11 +207,11 @@ A gamified science-learning platform with biology, chemistry and physics worlds,
 ## Recent public activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#78](https://github.com/Harsha-code-per/Cadence/pull/78) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
-2. 🎉 Merged PR [#77](https://github.com/Harsha-code-per/Cadence/pull/77) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
-3. 💪 Opened PR [#78](https://github.com/Harsha-code-per/Cadence/pull/78) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
-4. 💪 Opened PR [#77](https://github.com/Harsha-code-per/Cadence/pull/77) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
-5. 🎉 Merged PR [#73](https://github.com/Harsha-code-per/Cadence/pull/73) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
+1. 💪 Opened PR [#1](https://github.com/loktrishal-05/loktrishal-portfolio-cinematic/pull/1) in [loktrishal-05/loktrishal-portfolio-cinematic](https://github.com/loktrishal-05/loktrishal-portfolio-cinematic)
+2. 🎉 Merged PR [#78](https://github.com/Harsha-code-per/Cadence/pull/78) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
+3. 🎉 Merged PR [#77](https://github.com/Harsha-code-per/Cadence/pull/77) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
+4. 💪 Opened PR [#78](https://github.com/Harsha-code-per/Cadence/pull/78) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
+5. 💪 Opened PR [#77](https://github.com/Harsha-code-per/Cadence/pull/77) in [Harsha-code-per/Cadence](https://github.com/Harsha-code-per/Cadence)
 <!--END_SECTION:activity-->
 
 <sub>Activity, contribution graphics and streaks refresh automatically through GitHub Actions.</sub>
