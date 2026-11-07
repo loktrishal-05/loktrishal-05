@@ -207,11 +207,11 @@ A gamified science-learning platform with biology, chemistry and physics worlds,
 ## Recent public activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#22](https://github.com/loktrishal-05/kinsight/pull/22) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
-2. 💪 Opened PR [#22](https://github.com/loktrishal-05/kinsight/pull/22) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
-3. 🎉 Merged PR [#21](https://github.com/loktrishal-05/kinsight/pull/21) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
-4. 💪 Opened PR [#21](https://github.com/loktrishal-05/kinsight/pull/21) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
-5. 🎉 Merged PR [#20](https://github.com/loktrishal-05/kinsight/pull/20) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
+1. 🎉 Merged PR [#27](https://github.com/loktrishal-05/kinsight/pull/27) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
+2. 💪 Opened PR [#27](https://github.com/loktrishal-05/kinsight/pull/27) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
+3. 🎉 Merged PR [#26](https://github.com/loktrishal-05/kinsight/pull/26) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
+4. 💪 Opened PR [#26](https://github.com/loktrishal-05/kinsight/pull/26) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
+5. 🎉 Merged PR [#25](https://github.com/loktrishal-05/kinsight/pull/25) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
 <!--END_SECTION:activity-->
 
 <sub>Activity, contribution graphics and streaks refresh automatically through GitHub Actions.</sub>
