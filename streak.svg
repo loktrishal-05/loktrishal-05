@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" role="img" aria-labelledby="title desc">
+<title id="title">Contribution streaks</title>
+<desc id="desc">Last 365 days. Current streak allows today to be unfinished. Longest streak is limited to this window.</desc>
+<rect x=".5" y=".5" width="899" height="209" rx="14" fill="#0B1018" stroke="#23445E"/>
+<path d="M300 40V155M600 40V155" stroke="#23445E"/>
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+<text x="150" y="95" font-size="42" font-weight="600" fill="#F8FAFC">802</text>
+<text x="150" y="128" font-size="12" letter-spacing="1.5" fill="#7DD3FC">CONTRIBUTIONS</text>
+<text x="450" y="95" font-size="42" font-weight="600" fill="#F8FAFC">3</text>
+<text x="450" y="128" font-size="12" letter-spacing="1.5" fill="#7DD3FC">CURRENT STREAK</text>
+<text x="750" y="95" font-size="42" font-weight="600" fill="#F8FAFC">11</text>
+<text x="750" y="128" font-size="12" letter-spacing="1.5" fill="#7DD3FC">LONGEST IN WINDOW</text>
+<text x="450" y="182" font-size="12" fill="#94A3B8">GitHub contribution calendar · last 365 days · 2026-11-14 UTC</text>
+</g></svg>
