@@ -207,7 +207,7 @@ A gamified science-learning platform with biology, chemistry and physics worlds,
 ## Recent public activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#142](https://github.com/loktrishal-05/kinsight/pull/142) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
+1. 🚀 Published release [Plant gate model v2 (ONNX)](https://github.com/loktrishal-05/Solar-Da/releases/tag/vision-v2-gate) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
 2. 💪 Opened PR [#142](https://github.com/loktrishal-05/kinsight/pull/142) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
 3. 🎉 Merged PR [#141](https://github.com/loktrishal-05/kinsight/pull/141) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
 4. 💪 Opened PR [#141](https://github.com/loktrishal-05/kinsight/pull/141) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
