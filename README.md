@@ -207,11 +207,11 @@ A gamified science-learning platform with biology, chemistry and physics worlds,
 ## Recent public activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [Plant gate model v2 (ONNX)](https://github.com/loktrishal-05/Solar-Da/releases/tag/vision-v2-gate) in [loktrishal-05/Solar-Da](https://github.com/loktrishal-05/Solar-Da)
-2. 💪 Opened PR [#142](https://github.com/loktrishal-05/kinsight/pull/142) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
-3. 🎉 Merged PR [#141](https://github.com/loktrishal-05/kinsight/pull/141) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
-4. 💪 Opened PR [#141](https://github.com/loktrishal-05/kinsight/pull/141) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
-5. 🎉 Merged PR [#140](https://github.com/loktrishal-05/kinsight/pull/140) in [loktrishal-05/kinsight](https://github.com/loktrishal-05/kinsight)
+1. 💪 Opened PR [#80](https://github.com/loktrishal-05/CodeKiln/pull/80) in [loktrishal-05/CodeKiln](https://github.com/loktrishal-05/CodeKiln)
+2. 🗣 Commented on [#79](https://github.com/loktrishal-05/CodeKiln/pull/79#issuecomment-7224923260) in [loktrishal-05/CodeKiln](https://github.com/loktrishal-05/CodeKiln)
+3. 🗣 Commented on [#77](https://github.com/loktrishal-05/CodeKiln/pull/77#issuecomment-7224269066) in [loktrishal-05/CodeKiln](https://github.com/loktrishal-05/CodeKiln)
+4. 🎉 Merged PR [#78](https://github.com/loktrishal-05/CodeKiln/pull/78) in [loktrishal-05/CodeKiln](https://github.com/loktrishal-05/CodeKiln)
+5. 💪 Opened PR [#78](https://github.com/loktrishal-05/CodeKiln/pull/78) in [loktrishal-05/CodeKiln](https://github.com/loktrishal-05/CodeKiln)
 <!--END_SECTION:activity-->
 
 <sub>Activity, contribution graphics and streaks refresh automatically through GitHub Actions.</sub>
